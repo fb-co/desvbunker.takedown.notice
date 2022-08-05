@@ -3,6 +3,28 @@
     padding: 0;
 }
 
-html {
+body {
     font-family: "Rubik", sans-serif;
+}
+
+#page {
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.warning {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.warning h1 {
+    margin-bottom: 15px;
+}
+
+.warning p {
+    line-height: 25px;
 }
