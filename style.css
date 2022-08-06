@@ -5,7 +5,7 @@
 
 body {
     font-family: "Rubik", sans-serif;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -16,105 +16,34 @@ body {
 }
 
 .banner {
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.logo {
-    width: 40%;
+    width: 90%;
     height: 100px;
     margin: auto;
+    margin-top: 50px;
 }
 
-.logo img {
-    width: 100%;
+.banner img {
+    /* due to the logo nature this is needed to make it look like it's centered*/
+    width: 95%;
     height: 100%;
-}
-
-.scroll {
-    margin-bottom: 60px;
-}
-
-@media only screen and (max-width: 700px) {
-    .logo {
-        width: 90%;
-    }
+    margin-left: 30px;
 }
 
 .warning {
     width: 70%;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 45px;
     text-align: center;
+    margin-top: 50px;
 }
 
-.warning h1 {
-    margin-bottom: 15px;
+.warning h2 {
+    font-size: 35px;
+    font-weight: 400;
 }
 
 .warning p {
-    line-height: 25px;
-}
-
-.about {
-    width: 95%;
-    margin: auto;
-}
-
-.about .img_container {
-    width: 80%;
-    height: 800px;
-    margin: auto;
-}
-.about .img_container img {
-    width: 100%;
-    height: 100%;
-}
-
-.description {
-    width: 95%;
-    height: 400px;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 50px;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.description .text {
-    flex: 0.65;
-}
-
-.description .text h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.description p {
     font-size: 18px;
+    font-weight: 200;
     line-height: 25px;
-    width: 80%;
-}
-
-.description .img {
-    flex: 0.35;
-    height: 100%;
-}
-
-.description .img img {
-    width: 100%;
-    height: 100%;
-}
-
-@media only screen and (max-width: 700px) {
-    .description {
-        flex-direction: column;
-    }
+    margin-top: 20px;
 }
